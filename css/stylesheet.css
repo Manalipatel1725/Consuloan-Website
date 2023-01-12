@@ -1,0 +1,567 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* header start  */
+.miniheaderbg {
+  background-color: rgba(12, 54, 94, 255);
+}
+
+.dropdownmenu {
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+
+.dropdownmenucontent {
+  color: black;
+}
+
+.miniheadercontent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.miniheaderbutton {
+  border: none;
+  background-color: rgba(242, 194, 26, 255);
+  padding: 10px;
+
+}
+
+.atag {
+  text-decoration: none;
+  color: white;
+  margin: 5px;
+}
+
+.atag:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.fafafonticon {
+  color: rgba(242, 194, 26, 255);
+  margin: 5px;
+}
+
+/* start main header  */
+
+.mainheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  width: 250px;
+}
+
+.headermenu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+.headermenu li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.headermenu li a,
+.dropdownbutton {
+
+  color: rgba(12, 54, 94, 255);
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.headermenu li a:hover,
+.dropdown:hover .dropdownbutton {
+  color: rgba(242, 194, 26, 255);
+}
+
+.headermenu li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  background-color: #f9f9f9;
+  position: absolute;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: rgba(12, 54, 94, 255);
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.atag2 {
+  text-decoration: none;
+  color: rgba(12, 54, 94, 255);
+  margin: 10px;
+  font-size: 20px;
+}
+
+.atag2:hover {
+  text-decoration: none;
+  color: rgba(242, 194, 26, 255);
+}
+
+/* end main header  */
+
+/* start banner  */
+
+.banner {
+  position: relative;
+}
+
+.bannertext {
+  position: absolute;
+  top: 35%;
+  width: 350px;
+
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+h1 {
+  color: rgba(12, 54, 94, 255);
+  margin-bottom: 30px;
+}
+
+span {
+  color: rgba(242, 194, 26, 255);
+}
+
+.bannerbutton {
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+  background-color: rgba(12, 54, 94, 255);
+}
+
+.bannerbutton:hover {
+  text-decoration: none;
+  color: black;
+  background-color: rgba(242, 194, 26, 255);
+}
+
+/* end banner  */
+
+/* start our industry  */
+.industryheading {
+  text-align: center;
+  color: rgba(12, 54, 94, 255);
+  font-weight: bold;
+}
+
+
+.industrycontent {
+  display: flex;
+  box-shadow: 20px 20px 50px grey;
+}
+
+.ourindusrty {
+  border: solid 0.5px white;
+  text-align: center;
+  padding: 10px;
+}
+
+.ourindusrty:hover {
+  background-color: rgba(12, 54, 94, 255);
+  color: white;
+}
+
+
+.atag4 {
+  text-decoration: none;
+  font-size: 30px;
+  color: rgba(242, 194, 26, 255);
+}
+
+.atag4:hover {
+  text-decoration: none;
+  color: rgba(242, 194, 26, 255);
+}
+
+.heading {
+  font-weight: bold;
+  color: rgba(12, 54, 94, 255);
+}
+.heading:hover{
+  color: white;
+}
+
+.headingcontent {
+  color: rgba(12, 54, 94, 255)
+}
+.headingcontent:hover{
+  color: white;
+}
+
+/* end our industry  */
+
+/* start second video banner  */
+.seondbanner {
+  background-image: url(backgroundimages/banner2.jpg);
+  background-size: cover;
+}
+
+.secondbannercontent {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding: 40px;
+}
+
+.secondbannertext {
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+.secondbannertext2 {
+  text-align: justify;
+  margin-bottom: 30px;
+}
+
+.secondbannerh3 {
+  font-weight: bold;
+}
+
+.hightlightspan {
+  color: rgba(242, 194, 26, 255);
+}
+
+.videosidetext {
+  padding-left: 40px;
+}
+
+.secondbannerbutton {
+  text-decoration: none;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: black;
+  background-color: rgba(242, 194, 26, 255);
+  text-transform: uppercase;
+  font-weight: bold;
+
+}
+
+.secondbannerbutton:hover {
+  text-decoration: none;
+  color: rgba(12, 54, 94, 255);
+}
+
+/* end second video banner  */
+/* start testimonial  */
+.quote {
+  text-decoration: none;
+  color: rgba(242, 194, 26, 255);
+  font-size: 50px;
+}
+
+.quote:hover {
+  text-decoration: none;
+  color: rgba(242, 194, 26, 255);
+}
+
+.quotetext {
+  color: rgba(12, 54, 94, 255);
+  font-weight: bold;
+}
+
+.quotecontent {
+  color: rgba(12, 54, 94, 255);
+}
+
+.personphoto {
+  height: 5%;
+  width: 5%;
+  margin-top: 5%;
+  border-radius: 50%;
+}
+
+.personphoto:hover {
+  height: 7%;
+  width: 7%;
+}
+
+.personname {
+  font-weight: bold;
+  margin-top: 10px;
+  color: rgba(12, 54, 94, 255);
+}
+
+.reviewstar {
+  text-decoration: none;
+  color: rgba(242, 194, 26, 255);
+}
+
+.reviewstar:hover {
+  text-decoration: none;
+  color: rgba(242, 194, 26, 255);
+}
+
+/* end testimonail  */
+/* start review content  */
+.reviewbgimg {
+  background-image: url(backgroundimages/meetingbanner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.reviewheading {
+  font-weight: bold;
+  color: white;
+}
+
+.reviewbox {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.reviewfafaicon {
+  color: white;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+.reviewfafaicon:hover {
+  color: white;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+.number {
+  font-size: 40px;
+  font-weight: bold;
+  color: rgba(242, 194, 26, 255);
+}
+
+/* end review content  */
+/* start news section  */
+.newsheading {
+  font-weight: bold;
+  color: rgba(12, 54, 94, 255);
+}
+
+.newscontent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.newspart1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.newspart2 {
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.newshighlight {
+  font-weight: bold;
+  color: rgba(12, 54, 94, 255);
+}
+
+.date {
+  color: rgba(242, 194, 26, 255);
+  font-weight: bold;
+}
+
+/* end news section  */
+/* start map and form  */
+.mapform {
+  display: flex;
+}
+
+.map {
+
+  width: 100%;
+}
+
+
+.formbgimg {
+  background-image: url(backgroundimages/meetingbanner.jpg);
+  background-size: cover;
+
+}
+
+.formheading {
+  font-weight: bold;
+}
+
+.forminput {
+  padding: 10px;
+}
+
+.formbutton {
+  text-decoration: none;
+  width: 205px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: rgba(242, 194, 26, 255);
+  color: black;
+  font-weight: bold;
+  border: none;
+}
+
+.formbutton:hover {
+  text-decoration: none;
+  background-color: rgb(2, 2, 29);
+  color: white;
+}
+
+/* end map and form  */
+/* start company logo  */
+.logosimg {
+
+  filter: grayscale(100%);
+}
+
+.logosimg:hover {
+
+  filter: grayscale(0%);
+}
+
+/* end company logo  */
+/* start footer  */
+.bgcolor {
+  background-color: rgba(12, 54, 94, 255);
+  color: white;
+}
+
+.mainfooter {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerlinks {
+  text-decoration: none;
+  color: white;
+}
+
+.footerlinks:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.footerul li {
+  list-style: none;
+  padding: 10px;
+}
+
+.footerul li a {
+  text-decoration: none;
+}
+
+.footerlist {
+  display: flex;
+}
+
+.footericon {
+  font-weight: bold;
+  color: rgba(242, 194, 26, 255);
+}
+
+.footerlinksli {
+  text-decoration: none;
+  color: white;
+}
+
+.footerlinksli:hover {
+  text-decoration: none;
+  color: rgba(242, 194, 26, 255);
+}
+
+.footerpartsheading {
+  font-weight: bold;
+}
+
+.footerpart1,
+.footerpart2,
+.footerpart3,
+.footerpart4 {
+  width: 50%;
+  padding: 20px;
+}
+
+.inputemail {
+  color: white;
+  background-color: rgba(38, 55, 73, 255);
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.footerbutton {
+  color: black;
+  background-color: rgba(242, 194, 26, 255);
+  border: none;
+  font-weight: bold;
+  padding: 5px;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.minifooterbg {
+  color: darkblue;
+  padding: 10px;
+}
+
+.minifooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.minifootertext {
+  color: grey;
+}
+
+.minifootericons {
+  background-color: rgba(38, 55, 73, 255);
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.minifootericons:hover {
+  text-decoration: none;
+  background-color: rgba(242, 194, 26, 255);
+  color: gray;
+}
+
+/* end footer  */
+/* header end  */
